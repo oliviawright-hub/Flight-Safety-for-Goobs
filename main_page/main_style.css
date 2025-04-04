@@ -28,13 +28,50 @@ body{
     flex-direction: column;
     color: #F8F7F5;
 }
-#search-bar{
-    display: block;
-    width: 80%;
-    height: 20%;
-    background: #F8F7F5;
-}
-.text p{
+#welcome {
     font-family: "Montserrat";
-    bottom: 0;
+    bottom: 15%;
+    position: fixed;
+    font-weight: 600;
+    font-size: 64pt;
+    left: 1%;
+}
+.search-container{
+    display: flex;
+    width: 50%;
+    height: 10%;
+    background: #F8F7F5;
+    align-items: center;
+    position: fixed;
+    bottom: 10%;
+    left: 1.5%;
+    border-radius: 20pt;
+    justify-content: space-between;
+}
+#flight-icon{
+    display: flex;
+    width: 18%;
+    height: 100%;
+    background: #3C9EB6;
+    position: relative;
+    align-items: center;
+    border-radius: 0pt 20pt 20pt 0pt;
+    float: right;
+}
+#icon{
+    width: 150%;
+    padding: 13%;
+}
+#search-bar{
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 20pt;
+    color: #3C9EB6;
+    padding: 2%;
+    font-weight: 600;
+}
+*:focus{
+    outline: none;
 }
